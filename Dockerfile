@@ -39,4 +39,4 @@ RUN npm run build \
 EXPOSE 8000
 
 # Start Laravel development server
-CMD ["php", "-r", "echo 'PHP is working!'; sleep 3600;"]
+CMD ["php", "-r", "echo 'PHP is working!'; sleep(3600);"]
