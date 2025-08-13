@@ -2,7 +2,13 @@
 FROM php:8.2-fpm
 
 # Install system dependencies (non-PHP specific)
-RUN apt-get update && apt-get install -y --no-install-recommends nodejs npm git zip unzip     libpng-dev     libjpeg-dev     libfreetype6-dev     libmysqlclient-dev     libxml2-dev     libzip-dev     libicu-dev     && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends git zip unzip && rm -rf /var/lib/apt/lists/*
+
+# Install Node.js and npm
+RUN apt-get update && apt-get install -y --no-install-recommends nodejs npm && rm -rf /var/lib/apt/lists/*
+
+# Install PHP extension development libraries
+RUN apt-get update && apt-get install -y --no-install-recommends     libpng-dev     libjpeg-dev     libfreetype6-dev     libmysqlclient-dev     libxml2-dev     libzip-dev     libicu-dev     && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
 RUN docker-php-ext-install pdo_mysql gd mbstring xml json tokenizer session dom ctype fileinfo intl zip
