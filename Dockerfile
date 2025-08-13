@@ -40,14 +40,14 @@ WORKDIR /var/www/html
 COPY . /var/www/html
 
 # Run build commands
-RUN composer install --no-dev --optimize-autoloader \
-    && npm install \
-    && npm run build \
-    && php artisan optimize:clear \
-    && php artisan config:cache \
-    && php artisan route:cache \
-    && php artisan view:cache \
-    && php artisan migrate --force
+RUN composer install --no-dev --optimize-autoloader
+RUN npm install
+RUN npm run build
+RUN php artisan optimize:clear
+RUN php artisan config:cache
+RUN php artisan route:cache
+RUN php artisan view:cache
+RUN php artisan migrate --force
 
 # Expose port for PHP-FPM
 EXPOSE 9000
