@@ -2,23 +2,7 @@
 FROM php:8.2-fpm
 
 # Install system dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends 
-    nodejs 
-    npm 
-    git 
-    zip 
-    unzip 
-    php-pdo-mysql 
-    php-gd 
-    php-mbstring 
-    php-xml 
-    php-json 
-    php-tokenizer 
-    php-session 
-    php-dom 
-    php-ctype 
-    php-fileinfo && 
-    rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends nodejs npm git zip unzip php-pdo-mysql php-gd php-mbstring php-xml php-json php-tokenizer php-session php-dom php-ctype php-fileinfo && rm -rf /var/lib/apt/lists/*
 
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
