@@ -1,0 +1,16 @@
+   services:
+     - type: web
+       name: workplace-report-app
+       env: php
+       buildCommand: ./build.sh
+       startCommand: heroku-php-apache2 public/
+       envVars:
+          # Your existing environment variables go here.
+          # Render will automatically pick these up from the UI if they are already set there.
+          # However, for robustness, you can define them here as well.
+          # Example:
+          # - key: APP_KEY
+          #   value: your_app_key_here
+          # - key: DATABASE_URL
+          #   value: your_database_url_here
+          # ... and all your other variables (APP_ENV, APP_DEBUG, DB_CONNECTION, SF_ variables, HTTP_TIMEOUT_SEC)
