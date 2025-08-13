@@ -1,5 +1,5 @@
 # Use a base image that includes PHP and Node.js
-FROM php:8.2-fpm-alpine
+FROM php:8.2-fpm
 
 # Install system dependencies
 RUN apk add --no-cache \
