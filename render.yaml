@@ -3,5 +3,5 @@ services:
     name: factory-report # Replace with your actual app name
     env: php
     buildCommand: bash build.sh
-    startCommand: php artisan serve --host=0.0.0.0 --port=$PORT
+    dockerfilePath: Dockerfile # Path to your Dockerfile
     documentRoot: public
