@@ -1,14 +1,8 @@
 # Use a base image that includes PHP and Node.js
 FROM php:8.2-fpm
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends 
-    nodejs 
-    npm 
-    git 
-    zip 
-    unzip 
-    && rm -rf /var/lib/apt/lists/*
+# Install system dependencies (non-PHP specific)
+RUN apt-get update && apt-get install -y --no-install-recommends nodejs npm git zip unzip && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
 RUN docker-php-ext-install pdo_mysql gd mbstring xml json tokenizer session dom ctype fileinfo
