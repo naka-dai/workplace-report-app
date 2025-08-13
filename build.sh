@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# Enable strict mode: exit on error, treat unset variables as error,
+# print commands and their arguments as they are executed,
+# and ensure pipeline failures are propagated.
+set -euxo pipefail
+
 echo "Downloading composer.phar..."
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php composer-setup.php
