@@ -2,7 +2,9 @@
 FROM php:8.2-fpm
 
 # Install all system dependencies in one go
-RUN apt-get update && apt-get install -y --no-install-recommends git zip unzip nodejs npm libpng-dev libjpeg-dev libfreetype6-dev default-libmysqlclient-dev libxml2-dev libzip-dev libicu-dev libonig-dev && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends git zip unzip nodejs
+    npm
+    nginx \ libpng-dev libjpeg-dev libfreetype6-dev default-libmysqlclient-dev libxml2-dev libzip-dev libicu-dev libonig-dev && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
 RUN docker-php-ext-install pdo_mysql gd mbstring xml session dom ctype fileinfo intl zip
@@ -31,6 +33,10 @@ COPY . /var/www/html
 # Set permissions for storage and bootstrap/cache
 RUN chown -R www-data:www-data storage bootstrap/cache     && chmod -R 775 storage bootstrap/cache
 
+# Configure Nginx
+COPY nginx.conf /etc/nginx/sites-available/default
+RUN ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default     && rm -rf /etc/nginx/sites-enabled/default.bak # Clean up default symlink if it exists
+
 # Run build commands
 RUN npm run build \
     && php artisan config:cache \
@@ -39,7 +45,7 @@ RUN npm run build \
     && php artisan migrate --force
 
 # Expose port for Laravel (default 8000, Render maps $PORT to this)
-EXPOSE 8000
+EXPOSE 80
 
-# Start Laravel development server
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
+# Start Nginx and PHP-FPM
+CMD ["/bin/bash", "-c", "nginx -g 'daemon off;' & php-fpm"]
