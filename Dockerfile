@@ -22,7 +22,7 @@ RUN docker-php-ext-install gd
 RUN docker-php-ext-install mbstring
 RUN docker-php-ext-install xml
 
-RUN docker-php-ext-install tokenizer
+
 RUN docker-php-ext-install session
 RUN docker-php-ext-install dom
 RUN docker-php-ext-install ctype
