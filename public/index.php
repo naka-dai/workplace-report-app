@@ -1,5 +1,7 @@
 <?php
 
+error_log("Gemini debug: Top of index.php");
+
 use Illuminate\Foundation\Application;
 use Illuminate\Http\Request;
 
