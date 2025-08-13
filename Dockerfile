@@ -17,7 +17,18 @@ RUN apt-get update && apt-get install -y --no-install-recommends default-libmysq
 RUN apt-get update && apt-get install -y --no-install-recommends libxml2-dev libzip-dev libicu-dev libonig-dev && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
-RUN docker-php-ext-install pdo_mysql gd mbstring xml json tokenizer session dom ctype fileinfo intl zip
+RUN docker-php-ext-install pdo_mysql
+RUN docker-php-ext-install gd
+RUN docker-php-ext-install mbstring
+RUN docker-php-ext-install xml
+RUN docker-php-ext-install json
+RUN docker-php-ext-install tokenizer
+RUN docker-php-ext-install session
+RUN docker-php-ext-install dom
+RUN docker-php-ext-install ctype
+RUN docker-php-ext-install fileinfo
+RUN docker-php-ext-install intl
+RUN docker-php-ext-install zip
 
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
