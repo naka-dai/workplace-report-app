@@ -1,22 +1,8 @@
 # Use a base image that includes PHP and Node.js
 FROM php:8.2-fpm
 
-# Install system dependencies (non-PHP specific)
-RUN apt-get update && apt-get install -y --no-install-recommends 
-    git 
-    zip 
-    unzip 
-    nodejs 
-    npm 
-    libpng-dev 
-    libjpeg-dev 
-    libfreetype6-dev 
-    default-libmysqlclient-dev 
-    libxml2-dev 
-    libzip-dev 
-    libicu-dev 
-    libonig-dev 
-    && rm -rf /var/lib/apt/lists/*
+# Install all system dependencies in one go
+RUN apt-get update && apt-get install -y --no-install-recommends git zip unzip nodejs npm libpng-dev libjpeg-dev libfreetype6-dev default-libmysqlclient-dev libxml2-dev libzip-dev libicu-dev libonig-dev && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
 RUN docker-php-ext-install pdo_mysql gd mbstring xml session dom ctype fileinfo intl zip
@@ -30,7 +16,7 @@ WORKDIR /var/www/html
 # Copy composer files for caching
 COPY composer.json composer.lock ./
 
-# Run composer install
+# Run composer install (without scripts)
 RUN composer install --no-dev --optimize-autoloader --no-scripts
 
 # Copy package.json for caching
@@ -41,10 +27,15 @@ RUN npm install
 
 # Copy remaining application files
 COPY . /var/www/html
-RUN npm install
-RUN npm run build && php artisan config:cache && php artisan route:cache && php artisan view:cache && php artisan migrate --force
 
-# Expose port for PHP-FPM
+# Run build commands
+RUN npm run build \
+    && php artisan config:cache \
+    && php artisan route:cache \
+    && php artisan view:cache \
+    && php artisan migrate --force
+
+# Expose port for Laravel (default 8000, Render maps $PORT to this)
 EXPOSE 8000
 
 # Start Laravel development server
