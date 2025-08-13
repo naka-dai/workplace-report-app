@@ -40,6 +40,7 @@ class ClaimController extends Controller
             '軽' => '軽',
             '中' => '中',
             '重' => '重',
+            '軽微' => '軽', // 追加：フォームからの「軽微」をSalesforceの「軽」にマッピング
         ];
         $sfSeverity = $map[$v['severity']] ?? $v['severity'];
 
