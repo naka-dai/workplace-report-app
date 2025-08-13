@@ -2,26 +2,27 @@
 FROM php:8.2-fpm
 
 # Install system dependencies
-RUN apk add --no-cache \
-    nodejs \
-    npm \
-    git \
-    zip \
-    unzip \
+RUN apt-get update && apt-get install -y --no-install-recommends 
+    nodejs 
+    npm 
+    git 
+    zip 
+    unzip 
     # Add common PHP extensions for Laravel
-    php82-pdo_mysql \
-    php82-gd \
-    php82-mbstring \
-    php82-xml \
-    php82-json \
-    php82-tokenizer \
-    php82-session \
-    php82-dom \
-    php82-ctype \
-    php82-fileinfo
+    php-pdo-mysql 
+    php-gd 
+    php-mbstring 
+    php-xml 
+    php-json 
+    php-tokenizer 
+    php-session 
+    php-dom 
+    php-ctype 
+    php-fileinfo 
+    && rm -rf /var/lib/apt/lists/*
 
 # Install Composer
-COPY --from=composer/composer:latest-bin /usr/bin/composer /usr/local/bin/composer
+COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
 
 # Set working directory
 WORKDIR /var/www/html
