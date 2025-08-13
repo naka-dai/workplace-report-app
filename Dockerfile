@@ -36,11 +36,20 @@ COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy application files
-COPY . /var/www/html
+# Copy composer files for caching
+COPY composer.json composer.lock ./
 
-# Run build commands
+# Run composer install
 RUN composer install --no-dev --optimize-autoloader
+
+# Copy package.json for caching
+COPY package.json package-lock.json ./
+
+# Run npm install
+RUN npm install
+
+# Copy remaining application files
+COPY . /var/www/html
 RUN npm install
 RUN npm run build
 
