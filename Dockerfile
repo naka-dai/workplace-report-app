@@ -8,7 +8,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends git zip unzip &
 RUN apt-get update && apt-get install -y --no-install-recommends nodejs npm && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extension development libraries
-RUN apt-get update && apt-get install -y --no-install-recommends     libpng-dev     libjpeg-dev     libfreetype6-dev     libmysqlclient-dev     libxml2-dev     libzip-dev     libicu-dev     && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends libpng-dev libjpeg-dev libfreetype6-dev && rm -rf /var/lib/apt/lists/*
+
+# Install database client libs
+RUN apt-get update && apt-get install -y --no-install-recommends libmysqlclient-dev && rm -rf /var/lib/apt/lists/*
+
+# Install XML and other libs
+RUN apt-get update && apt-get install -y --no-install-recommends libxml2-dev libzip-dev libicu-dev && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
 RUN docker-php-ext-install pdo_mysql gd mbstring xml json tokenizer session dom ctype fileinfo intl zip
