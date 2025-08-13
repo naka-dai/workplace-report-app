@@ -2,12 +2,34 @@
 FROM php:8.2-fpm
 
 # Install all system dependencies in one go
-RUN apt-get update && apt-get install -y --no-install-recommends git zip unzip nodejs
-    npm
-    nginx \ libpng-dev libjpeg-dev libfreetype6-dev default-libmysqlclient-dev libxml2-dev libzip-dev libicu-dev libonig-dev && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    zip \
+    unzip \
+    nodejs \
+    npm \
+    nginx \
+    libpng-dev \
+    libjpeg-dev \
+    libfreetype6-dev \
+    default-libmysqlclient-dev \
+    libxml2-dev \
+    libzip-dev \
+    libicu-dev \
+    libonig-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
-RUN docker-php-ext-install pdo_mysql gd mbstring xml session dom ctype fileinfo intl zip
+RUN docker-php-ext-install pdo_mysql \
+    && docker-php-ext-install gd \
+    && docker-php-ext-install mbstring \
+    && docker-php-ext-install xml \
+    && docker-php-ext-install session \
+    && docker-php-ext-install dom \
+    && docker-php-ext-install ctype \
+    && docker-php-ext-install fileinfo \
+    && docker-php-ext-install intl \
+    && docker-php-ext-install zip
 
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
@@ -31,11 +53,13 @@ RUN npm install
 COPY . /var/www/html
 
 # Set permissions for storage and bootstrap/cache
-RUN chown -R www-data:www-data storage bootstrap/cache     && chmod -R 775 storage bootstrap/cache
+RUN chown -R www-data:www-data storage bootstrap/cache \
+    && chmod -R 775 storage bootstrap/cache
 
 # Configure Nginx
 COPY nginx.conf /etc/nginx/sites-available/default
-RUN ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default     && rm -rf /etc/nginx/sites-enabled/default.bak # Clean up default symlink if it exists
+RUN ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default \
+    && rm -rf /etc/nginx/sites-enabled/default.bak # Clean up default symlink if it exists
 
 # Run build commands
 RUN npm run build \
@@ -44,7 +68,7 @@ RUN npm run build \
     && php artisan view:cache \
     && php artisan migrate --force
 
-# Expose port for Laravel (default 8000, Render maps $PORT to this)
+# Expose port for Nginx (default HTTP port)
 EXPOSE 80
 
 # Start Nginx and PHP-FPM
