@@ -40,7 +40,7 @@ WORKDIR /var/www/html
 COPY composer.json composer.lock ./
 
 # Run composer install
-RUN composer install --no-dev --optimize-autoloader
+RUN composer install --no-dev --optimize-autoloader --no-scripts
 
 # Copy package.json for caching
 COPY package.json package-lock.json ./
