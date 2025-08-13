@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends nodejs npm && r
 RUN apt-get update && apt-get install -y --no-install-recommends libpng-dev libjpeg-dev libfreetype6-dev && rm -rf /var/lib/apt/lists/*
 
 # Install database client libs
-RUN apt-get update && apt-get install -y --no-install-recommends libmysqlclient-dev && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends default-libmysqlclient-dev && rm -rf /var/lib/apt/lists/*
 
 # Install XML and other libs
 RUN apt-get update && apt-get install -y --no-install-recommends libxml2-dev libzip-dev libicu-dev && rm -rf /var/lib/apt/lists/*
