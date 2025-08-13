@@ -13,6 +13,7 @@ php -r "unlink('composer-setup.php');"
 
 # Run your Laravel build commands
 php composer.phar install --no-dev
+php artisan config:clear
 php artisan optimize:clear
 php artisan config:cache
 php artisan route:cache
