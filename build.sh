@@ -13,11 +13,7 @@ php -r "unlink('composer-setup.php');"
 
 # Run your Laravel build commands
 php composer.phar install --no-dev
-php artisan config:clear
 php artisan optimize:clear
-php artisan config:cache
-php artisan route:cache
-php artisan view:cache
 
 # If you have frontend assets (Vite) and public/build is NOT committed:      
 npm install
