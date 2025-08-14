@@ -41,7 +41,7 @@ WORKDIR /var/www/html
 COPY composer.json composer.lock ./
 
 # Run composer install (without scripts)
-RUN composer install --no-dev --optimize-autoloader --no-scripts
+RUN composer install --no-dev --optimize-autoloader
 
 # Copy package.json for caching
 COPY package.json package-lock.json ./

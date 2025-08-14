@@ -1,6 +1,7 @@
      ==> Deploying...
-[14-Aug-2025 00:50:10] NOTICE: fpm is running, pid 8
-[14-Aug-2025 00:50:10] NOTICE: ready to handle connections
+[14-Aug-2025 02:19:01] NOTICE: fpm is running, pid 8
+[14-Aug-2025 02:19:01] NOTICE: ready to handle connections
+127.0.0.1 -  14/Aug/2025:02:19:02 +0000 "HEAD /index.php" 500
      ==> Your service is live 🎉
      ==> 
      ==> ///////////////////////////////////////////////////////////
@@ -8,6 +9,5 @@
      ==> Available at your primary URL https://workplace-report-app.onrender.com
      ==> 
      ==> ///////////////////////////////////////////////////////////
-127.0.0.1 -  14/Aug/2025:00:50:11 +0000 "HEAD /index.php" 500
-127.0.0.1 -  14/Aug/2025:00:50:13 +0000 "GET /index.php" 500
-127.0.0.1 -  14/Aug/2025:00:52:12 +0000 "GET /index.php" 500
+127.0.0.1 -  14/Aug/2025:02:19:06 +0000 "GET /index.php" 500
+127.0.0.1 -  14/Aug/2025:02:19:43 +0000 "GET /index.php" 500
