@@ -1,521 +1,61 @@
-2025-08-14T00:46:31.813052186Z 127.0.0.1 -  14/Aug/2025:00:46:31 +0000 "GET /index.php" 500
-2025-08-14T00:46:51.321587973Z 127.0.0.1 -  14/Aug/2025:00:46:51 +0000 "GET /index.php" 500
-2025-08-14T00:50:10.077656194Z [14-Aug-2025 00:50:10] NOTICE: fpm is running, pid 8
-2025-08-14T00:50:10.079003312Z [14-Aug-2025 00:50:10] NOTICE: ready to handle connections
-2025-08-14T00:50:12.116348058Z ==> 
-2025-08-14T00:50:12.146043588Z ==> Available at your primary URL https://workplace-report-app.onrender.com
-2025-08-14T00:50:12.174335218Z ==> 
-2025-08-14T00:50:12.202270557Z ==> ///////////////////////////////////////////////////////////
-2025-08-14T00:50:12.274757234Z 127.0.0.1 -  14/Aug/2025:00:50:11 +0000 "HEAD /index.php" 500
-2025-08-14T00:50:13.009471719Z 127.0.0.1 -  14/Aug/2025:00:50:13 +0000 "GET /index.php" 500
-2025-08-14T00:52:12.054035661Z 127.0.0.1 -  14/Aug/2025:00:52:12 +0000 "GET /index.php" 500
-2025-08-14T00:54:49.192157683Z ==> Deploying...
-2025-08-14T00:54:53.177130319Z [14-Aug-2025 00:54:53] NOTICE: fpm is running, pid 8
-2025-08-14T00:54:53.178991885Z [14-Aug-2025 00:54:53] NOTICE: ready to handle connections
-2025-08-14T00:54:58.988774475Z 127.0.0.1 -  14/Aug/2025:00:54:57 +0000 "HEAD /index.php" 500
-2025-08-14T00:55:00.505291309Z ==> Your service is live 🎉
-2025-08-14T00:55:00.534860859Z ==> 
-2025-08-14T00:55:00.561241659Z ==> ///////////////////////////////////////////////////////////
-2025-08-14T00:55:00.588540119Z ==> 
-2025-08-14T00:55:00.614300108Z ==> Available at your primary URL https://workplace-report-app.onrender.com
-2025-08-14T00:55:00.640783498Z ==> 
-2025-08-14T00:55:00.667450588Z ==> ///////////////////////////////////////////////////////////
-2025-08-14T00:55:05.024640359Z 127.0.0.1 -  14/Aug/2025:00:55:05 +0000 "GET /index.php" 500
-2025-08-14T01:00:07.113289079Z ==> Detected service running on port 80 with additional ports TCP:9000
-2025-08-14T01:00:07.285352449Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
-2025-08-14T02:18:43.698742274Z ==> Deploying...
-2025-08-14T02:19:01.02527049Z [14-Aug-2025 02:19:01] NOTICE: fpm is running, pid 8
-2025-08-14T02:19:01.026622386Z [14-Aug-2025 02:19:01] NOTICE: ready to handle connections
-2025-08-14T02:19:03.421080062Z 127.0.0.1 -  14/Aug/2025:02:19:02 +0000 "HEAD /index.php" 500
-2025-08-14T02:19:05.000602786Z ==> Your service is live 🎉
-2025-08-14T02:19:05.029486266Z ==> 
-2025-08-14T02:19:05.060128476Z ==> ///////////////////////////////////////////////////////////
-2025-08-14T02:19:05.089166665Z ==> 
-2025-08-14T02:19:05.116826885Z ==> Available at your primary URL https://workplace-report-app.onrender.com
-2025-08-14T02:19:05.144183245Z ==> 
-2025-08-14T02:19:05.185750475Z ==> ///////////////////////////////////////////////////////////
-2025-08-14T02:19:06.032746987Z 127.0.0.1 -  14/Aug/2025:02:19:06 +0000 "GET /index.php" 500
-2025-08-14T02:19:43.818506249Z 127.0.0.1 -  14/Aug/2025:02:19:43 +0000 "GET /index.php" 500
-2025-08-14T02:24:10.810357743Z ==> Detected service running on port 80 with additional ports TCP:9000
-2025-08-14T02:24:10.923594799Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
-2025-08-14T02:24:43.242274645Z 127.0.0.1 -  14/Aug/2025:02:24:43 +0000 "GET /index.php" 500
-2025-08-14T02:45:28.738897373Z ==> Deploying...
-2025-08-14T02:45:48.6968462Z /bin/bash: line 1: ./start.sh: Permission denied
-2025-08-14T02:45:52.500496073Z /bin/bash: line 1: ./start.sh: Permission denied
-2025-08-14T02:45:52.649470103Z ==> Exited with status 126
-2025-08-14T02:45:52.666036621Z ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
-2025-08-14T02:46:10.395984696Z [14-Aug-2025 02:46:10] NOTICE: fpm is running, pid 8
-2025-08-14T02:46:10.397325594Z [14-Aug-2025 02:46:10] NOTICE: ready to handle connections
-2025-08-14T02:46:12.688054636Z /bin/bash: line 1: ./start.sh: Permission denied
-2025-08-14T02:57:42.908765961Z ==> Deploying...
-2025-08-14T02:57:48.910765501Z 
-2025-08-14T02:57:48.910812451Z    INFO  Configuration cache cleared successfully.  
-2025-08-14T02:57:48.910816962Z 
-2025-08-14T02:57:49.906215456Z 
-2025-08-14T02:57:49.906233676Z    INFO  Discovering packages.  
-2025-08-14T02:57:49.906236736Z 
-2025-08-14T02:57:49.910325032Z   laravel/tinker ........................................................ DONE
-2025-08-14T02:57:49.91201946Z   nesbot/carbon ......................................................... DONE
-2025-08-14T02:57:49.913520877Z   nunomaduro/termwind ................................................... DONE
-2025-08-14T02:57:49.913546808Z 
-2025-08-14T02:57:50.915599847Z [2025-08-14 02:57:50] production.ERROR: could not find driver (Connection: pgsql, SQL: select exists (select 1 from pg_class c, pg_namespace n where n.nspname = current_schema() and c.relname = 'migrations' and c.relkind in ('r', 'p') and n.oid = c.relnamespace)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): could not find driver (Connection: pgsql, SQL: select exists (select 1 from pg_class c, pg_namespace n where n.nspname = current_schema() and c.relname = 'migrations' and c.relkind in ('r', 'p') and n.oid = c.relnamespace)) at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:824)
-2025-08-14T02:57:50.915618467Z [stacktrace]
-2025-08-14T02:57:50.915622927Z #0 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(778): Illuminate\\Database\\Connection->runQueryCallback('select exists (...', Array, Object(Closure))
-2025-08-14T02:57:50.915627387Z #1 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(397): Illuminate\\Database\\Connection->run('select exists (...', Array, Object(Closure))
-2025-08-14T02:57:50.915631077Z #2 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(343): Illuminate\\Database\\Connection->select('select exists (...', Array, true)
-2025-08-14T02:57:50.915634677Z #3 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(360): Illuminate\\Database\\Connection->selectOne('select exists (...', Array, true)
-2025-08-14T02:57:50.915639177Z #4 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(174): Illuminate\\Database\\Connection->scalar('select exists (...')
-2025-08-14T02:57:50.915657967Z #5 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(185): Illuminate\\Database\\Schema\\Builder->hasTable('migrations')
-2025-08-14T02:57:50.915661488Z #6 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(753): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
-2025-08-14T02:57:50.915663608Z #7 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(164): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
-2025-08-14T02:57:50.915666148Z #8 /var/www/html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(338): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}(1)
-2025-08-14T02:57:50.915668397Z #9 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(164): retry(1, Object(Closure), 0, Object(Closure))
-2025-08-14T02:57:50.915670477Z #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(140): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->repositoryExists()
-2025-08-14T02:57:50.915672597Z #11 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(110): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
-2025-08-14T02:57:50.915675228Z #12 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(666): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
-2025-08-14T02:57:50.915677388Z #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
-2025-08-14T02:57:50.915679508Z #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
-2025-08-14T02:57:50.915681558Z #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
-2025-08-14T02:57:50.915683748Z #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
-2025-08-14T02:57:50.915687908Z #17 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
-2025-08-14T02:57:50.915690128Z #18 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
-2025-08-14T02:57:50.915701728Z #19 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(797): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
-2025-08-14T02:57:50.915706128Z #20 /var/www/html/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call(Array)
-2025-08-14T02:57:50.915709628Z #21 /var/www/html/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
-2025-08-14T02:57:50.915715308Z #22 /var/www/html/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
-2025-08-14T02:57:50.915725528Z #23 /var/www/html/vendor/symfony/console/Application.php(1092): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-2025-08-14T02:57:50.915730298Z #24 /var/www/html/vendor/symfony/console/Application.php(341): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-2025-08-14T02:57:50.915733858Z #25 /var/www/html/vendor/symfony/console/Application.php(192): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-2025-08-14T02:57:50.915737938Z #26 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-2025-08-14T02:57:50.915741078Z #27 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-2025-08-14T02:57:50.915744838Z #28 /var/www/html/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
-2025-08-14T02:57:50.915748658Z #29 {main}
-2025-08-14T02:57:50.915752329Z 
-2025-08-14T02:57:50.915755009Z [previous exception] [object] (PDOException(code: 0): could not find driver at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:66)
-2025-08-14T02:57:50.915757238Z [stacktrace]
-2025-08-14T02:57:50.915759458Z #0 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(66): PDO->__construct('pgsql:host=dpg-...', 'workplace_repor...', Object(SensitiveParameterValue), Array)
-2025-08-14T02:57:50.915761669Z #1 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('pgsql:host=dpg-...', 'workplace_repor...', Object(SensitiveParameterValue), Array)
-2025-08-14T02:57:50.915763718Z #2 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/PostgresConnector.php(35): Illuminate\\Database\\Connectors\\Connector->createConnection('pgsql:host=dpg-...', Array, Array)
-2025-08-14T02:57:50.915765869Z #3 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\PostgresConnector->connect(Array)
-2025-08-14T02:57:50.915768409Z #4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
-2025-08-14T02:57:50.915770529Z #5 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1230): call_user_func(Object(Closure))
-2025-08-14T02:57:50.915772669Z #6 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1266): Illuminate\\Database\\Connection->getPdo()
-2025-08-14T02:57:50.915774769Z #7 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(511): Illuminate\\Database\\Connection->getReadPdo()
-2025-08-14T02:57:50.915776909Z #8 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(406): Illuminate\\Database\\Connection->getPdoForSelect(true)
-2025-08-14T02:57:50.915779129Z #9 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(811): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select exists (...', Array)
-2025-08-14T02:57:50.915789319Z #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(778): Illuminate\\Database\\Connection->runQueryCallback('select exists (...', Array, Object(Closure))
-2025-08-14T02:57:50.915799219Z #11 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(397): Illuminate\\Database\\Connection->run('select exists (...', Array, Object(Closure))
-2025-08-14T02:57:50.915802639Z #12 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(343): Illuminate\\Database\\Connection->select('select exists (...', Array, true)
-2025-08-14T02:57:50.915806169Z #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(360): Illuminate\\Database\\Connection->selectOne('select exists (...', Array, true)
-2025-08-14T02:57:50.915809579Z #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(174): Illuminate\\Database\\Connection->scalar('select exists (...')
-2025-08-14T02:57:50.915813319Z #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php(185): Illuminate\\Database\\Schema\\Builder->hasTable('migrations')
-2025-08-14T02:57:50.915816969Z #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(753): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
-2025-08-14T02:57:50.915820489Z #17 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(164): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
-2025-08-14T02:57:50.915822669Z #18 /var/www/html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(338): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}(1)
-2025-08-14T02:57:50.915824789Z #19 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(164): retry(1, Object(Closure), 0, Object(Closure))
-2025-08-14T02:57:50.915826939Z #20 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(140): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->repositoryExists()
-2025-08-14T02:57:50.915829019Z #21 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(110): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
-2025-08-14T02:57:50.915831239Z #22 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(666): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
-2025-08-14T02:57:50.915833329Z #23 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
-2025-08-14T02:57:50.915835439Z #24 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
-2025-08-14T02:57:50.915837529Z #25 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
-2025-08-14T02:57:50.915839599Z #26 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
-2025-08-14T02:57:50.91584167Z #27 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
-2025-08-14T02:57:50.91584381Z #28 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
-2025-08-14T02:57:50.915845959Z #29 /var/www/html/vendor/laravel/framework/src/Illuminate/Container/Container.php(797): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
-2025-08-14T02:57:50.91585195Z #30 /var/www/html/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate\\Container\\Container->call(Array)
-2025-08-14T02:57:50.915854139Z #31 /var/www/html/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
-2025-08-14T02:57:50.91586804Z #32 /var/www/html/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
-2025-08-14T02:57:50.91587167Z #33 /var/www/html/vendor/symfony/console/Application.php(1092): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-2025-08-14T02:57:50.9158756Z #34 /var/www/html/vendor/symfony/console/Application.php(341): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-2025-08-14T02:57:50.91587914Z #35 /var/www/html/vendor/symfony/console/Application.php(192): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-2025-08-14T02:57:50.91588254Z #36 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-2025-08-14T02:57:50.91588589Z #37 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1234): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
-2025-08-14T02:57:50.91588937Z #38 /var/www/html/artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
-2025-08-14T02:57:50.91589297Z #39 {main}
-2025-08-14T02:57:50.91589554Z "} 
-2025-08-14T02:57:51.003253734Z 
-2025-08-14T02:57:51.006650272Z In Connection.php line 824:
-2025-08-14T02:57:51.006663863Z                                                                                
-2025-08-14T02:57:51.006692783Z   could not find driver (Connection: pgsql, SQL: select exists (select 1 from  
-2025-08-14T02:57:51.006696223Z    pg_class c, pg_namespace n where n.nspname = current_schema() and c.relnam  
-2025-08-14T02:57:51.006697963Z   e = 'migrations' and c.relkind in ('r', 'p') and n.oid = c.relnamespace))    
-2025-08-14T02:57:51.006699603Z                                                                                
-2025-08-14T02:57:51.006703623Z 
-2025-08-14T02:57:51.006898335Z In Connector.php line 66:
-2025-08-14T02:57:51.006901235Z                          
-2025-08-14T02:57:51.006931355Z   could not find driver  
-2025-08-14T02:57:51.006933915Z                          
-2025-08-14T02:57:51.006935526Z 
-2025-08-14T02:57:51.415255951Z [14-Aug-2025 02:57:51] NOTICE: fpm is running, pid 17
-2025-08-14T02:57:51.416777648Z [14-Aug-2025 02:57:51] NOTICE: ready to handle connections
-2025-08-14T02:57:53.812005438Z [2025-08-14 02:57:53] production.ERROR: could not find driver (Connection: pgsql, SQL: select * from "sessions" where "id" = GyYwAR9nN5T5R9b839c0HNEZwVJWhvaU3VPy7Jyo limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): could not find driver (Connection: pgsql, SQL: select * from \"sessions\" where \"id\" = GyYwAR9nN5T5R9b839c0HNEZwVJWhvaU3VPy7Jyo limit 1) at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:824)
-2025-08-14T02:57:53.812043188Z [stacktrace]
-2025-08-14T02:57:53.812049329Z #0 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(778): Illuminate\\Database\\Connection->runQueryCallback('select * from \"...', Array, Object(Closure))
-2025-08-14T02:57:53.812052389Z #1 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(397): Illuminate\\Database\\Connection->run('select * from \"...', Array, Object(Closure))
-2025-08-14T02:57:53.812055499Z #2 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3188): Illuminate\\Database\\Connection->select('select * from \"...', Array, false)
-2025-08-14T02:57:53.812058629Z #3 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3173): Illuminate\\Database\\Query\\Builder->runSelect()
-2025-08-14T02:57:53.812061519Z #4 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3763): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
-2025-08-14T02:57:53.812064369Z #5 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3172): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-2025-08-14T02:57:53.812067679Z #6 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php(366): Illuminate\\Database\\Query\\Builder->get(Array)
-2025-08-14T02:57:53.812070109Z #7 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3095): Illuminate\\Database\\Query\\Builder->first(Array)
-2025-08-14T02:57:53.812072369Z #8 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/DatabaseSessionHandler.php(96): Illuminate\\Database\\Query\\Builder->find('GyYwAR9nN5T5R9b...')
-2025-08-14T02:57:53.812075029Z #9 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(116): Illuminate\\Session\\DatabaseSessionHandler->read('GyYwAR9nN5T5R9b...')
-2025-08-14T02:57:53.812077839Z #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(104): Illuminate\\Session\\Store->readFromHandler()
-2025-08-14T02:57:53.812080069Z #11 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(88): Illuminate\\Session\\Store->loadSession()
-2025-08-14T02:57:53.812082699Z #12 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(146): Illuminate\\Session\\Store->start()
-2025-08-14T02:57:53.812085789Z #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(399): Illuminate\\Session\\Middleware\\StartSession->Illuminate\\Session\\Middleware\\{closure}(Object(Illuminate\\Session\\Store))
-2025-08-14T02:57:53.812088259Z #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(143): tap(Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:57:53.812091609Z #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(115): Illuminate\\Session\\Middleware\\StartSession->startSession(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store))
-2025-08-14T02:57:53.812094799Z #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:57:53.812097529Z #17 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812100179Z #18 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812108819Z #19 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812120609Z #20 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81212366Z #21 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.81212634Z #22 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812129209Z #23 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:57:53.81213236Z #24 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81213501Z #25 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
-2025-08-14T02:57:53.81213762Z #26 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81214035Z #27 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81214311Z #28 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81214595Z #29 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81214851Z #30 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.81215115Z #31 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.81215388Z #32 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81215653Z #33 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.81215901Z #34 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.81216127Z #35 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.8121682Z #36 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.81217054Z #37 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81217284Z #38 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.81217542Z #39 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81219274Z #40 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.81219537Z #41 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81219769Z #42 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.81220002Z #43 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.8122026Z #44 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.81220509Z #45 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81220741Z #46 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812209761Z #47 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812212221Z #48 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:57:53.81221461Z #49 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81221745Z #50 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812220301Z #51 /var/www/html/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.81222285Z #52 {main}
-2025-08-14T02:57:53.812225471Z [previous exception] [object] (PDOException(code: 0): could not find driver at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:66)
-2025-08-14T02:57:53.812228231Z [stacktrace]
-2025-08-14T02:57:53.812235281Z #0 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(66): PDO->__construct('pgsql:host=dpg-...', 'workplace_repor...', Object(SensitiveParameterValue), Array)
-2025-08-14T02:57:53.812238151Z #1 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('pgsql:host=dpg-...', 'workplace_repor...', Object(SensitiveParameterValue), Array)
-2025-08-14T02:57:53.812240831Z #2 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/PostgresConnector.php(35): Illuminate\\Database\\Connectors\\Connector->createConnection('pgsql:host=dpg-...', Array, Array)
-2025-08-14T02:57:53.812243371Z #3 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\PostgresConnector->connect(Array)
-2025-08-14T02:57:53.812255391Z #4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
-2025-08-14T02:57:53.812258861Z #5 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1230): call_user_func(Object(Closure))
-2025-08-14T02:57:53.812261711Z #6 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(511): Illuminate\\Database\\Connection->getPdo()
-2025-08-14T02:57:53.812264331Z #7 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(406): Illuminate\\Database\\Connection->getPdoForSelect(false)
-2025-08-14T02:57:53.812267361Z #8 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(811): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from \"...', Array)
-2025-08-14T02:57:53.812270271Z #9 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(778): Illuminate\\Database\\Connection->runQueryCallback('select * from \"...', Array, Object(Closure))
-2025-08-14T02:57:53.812273191Z #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(397): Illuminate\\Database\\Connection->run('select * from \"...', Array, Object(Closure))
-2025-08-14T02:57:53.812276151Z #11 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3188): Illuminate\\Database\\Connection->select('select * from \"...', Array, false)
-2025-08-14T02:57:53.812297662Z #12 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3173): Illuminate\\Database\\Query\\Builder->runSelect()
-2025-08-14T02:57:53.812300562Z #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3763): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
-2025-08-14T02:57:53.812302902Z #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3172): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-2025-08-14T02:57:53.812305382Z #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php(366): Illuminate\\Database\\Query\\Builder->get(Array)
-2025-08-14T02:57:53.812307771Z #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3095): Illuminate\\Database\\Query\\Builder->first(Array)
-2025-08-14T02:57:53.812310602Z #17 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/DatabaseSessionHandler.php(96): Illuminate\\Database\\Query\\Builder->find('GyYwAR9nN5T5R9b...')
-2025-08-14T02:57:53.812313642Z #18 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(116): Illuminate\\Session\\DatabaseSessionHandler->read('GyYwAR9nN5T5R9b...')
-2025-08-14T02:57:53.812316122Z #19 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(104): Illuminate\\Session\\Store->readFromHandler()
-2025-08-14T02:57:53.812322572Z #20 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(88): Illuminate\\Session\\Store->loadSession()
-2025-08-14T02:57:53.812324282Z #21 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(146): Illuminate\\Session\\Store->start()
-2025-08-14T02:57:53.812326022Z #22 /var/www/html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(399): Illuminate\\Session\\Middleware\\StartSession->Illuminate\\Session\\Middleware\\{closure}(Object(Illuminate\\Session\\Store))
-2025-08-14T02:57:53.812327682Z #23 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(143): tap(Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:57:53.812329512Z #24 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(115): Illuminate\\Session\\Middleware\\StartSession->startSession(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store))
-2025-08-14T02:57:53.812331352Z #25 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:57:53.812333522Z #26 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812335222Z #27 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812344482Z #28 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812347392Z #29 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812350062Z #30 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812352762Z #31 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812355742Z #32 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:57:53.812358402Z #33 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812360862Z #34 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
-2025-08-14T02:57:53.812363462Z #35 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812365952Z #36 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812368702Z #37 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812371732Z #38 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812377982Z #39 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812379672Z #40 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812381392Z #41 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812383092Z #42 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812384802Z #43 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812386852Z #44 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812388523Z #45 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812390152Z #46 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812391832Z #47 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812403673Z #48 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812406983Z #49 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812409613Z #50 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812412583Z #51 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812415803Z #52 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812421073Z #53 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812422843Z #54 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812427973Z #55 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:53.812429723Z #56 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812433723Z #57 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:57:53.812435433Z #58 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812437193Z #59 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812438933Z #60 /var/www/html/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:53.812440703Z #61 {main}
-2025-08-14T02:57:53.812442483Z "} 
-2025-08-14T02:57:54.008389219Z 127.0.0.1 -  14/Aug/2025:02:57:52 +0000 "HEAD /index.php" 500
-2025-08-14T02:57:54.49191538Z ==> Your service is live 🎉
-2025-08-14T02:57:54.52045749Z ==> 
-2025-08-14T02:57:54.546545479Z ==> ///////////////////////////////////////////////////////////
-2025-08-14T02:57:54.57269976Z ==> 
-2025-08-14T02:57:54.599467889Z ==> Available at your primary URL https://workplace-report-app.onrender.com
-2025-08-14T02:57:54.626286559Z ==> 
-2025-08-14T02:57:54.652003479Z ==> ///////////////////////////////////////////////////////////
-2025-08-14T02:57:55.508357302Z [2025-08-14 02:57:55] production.ERROR: could not find driver (Connection: pgsql, SQL: select * from "sessions" where "id" = AiNKtAGv6CwSGyjopd1oI7wyygSjkexBGNL08B8C limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): could not find driver (Connection: pgsql, SQL: select * from \"sessions\" where \"id\" = AiNKtAGv6CwSGyjopd1oI7wyygSjkexBGNL08B8C limit 1) at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:824)
-2025-08-14T02:57:55.508378872Z [stacktrace]
-2025-08-14T02:57:55.508383392Z #0 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(778): Illuminate\\Database\\Connection->runQueryCallback('select * from \"...', Array, Object(Closure))
-2025-08-14T02:57:55.508386652Z #1 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(397): Illuminate\\Database\\Connection->run('select * from \"...', Array, Object(Closure))
-2025-08-14T02:57:55.508389202Z #2 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3188): Illuminate\\Database\\Connection->select('select * from \"...', Array, false)
-2025-08-14T02:57:55.508392532Z #3 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3173): Illuminate\\Database\\Query\\Builder->runSelect()
-2025-08-14T02:57:55.508394972Z #4 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3763): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
-2025-08-14T02:57:55.508397832Z #5 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3172): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-2025-08-14T02:57:55.508401083Z #6 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php(366): Illuminate\\Database\\Query\\Builder->get(Array)
-2025-08-14T02:57:55.508404063Z #7 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3095): Illuminate\\Database\\Query\\Builder->first(Array)
-2025-08-14T02:57:55.508407183Z #8 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/DatabaseSessionHandler.php(96): Illuminate\\Database\\Query\\Builder->find('AiNKtAGv6CwSGyj...')
-2025-08-14T02:57:55.508410163Z #9 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(116): Illuminate\\Session\\DatabaseSessionHandler->read('AiNKtAGv6CwSGyj...')
-2025-08-14T02:57:55.508424963Z #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(104): Illuminate\\Session\\Store->readFromHandler()
-2025-08-14T02:57:55.508428013Z #11 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(88): Illuminate\\Session\\Store->loadSession()
-2025-08-14T02:57:55.508430703Z #12 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(146): Illuminate\\Session\\Store->start()
-2025-08-14T02:57:55.508433843Z #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(399): Illuminate\\Session\\Middleware\\StartSession->Illuminate\\Session\\Middleware\\{closure}(Object(Illuminate\\Session\\Store))
-2025-08-14T02:57:55.508436433Z #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(143): tap(Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:57:55.508442213Z #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(115): Illuminate\\Session\\Middleware\\StartSession->startSession(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store))
-2025-08-14T02:57:55.508445583Z #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:57:55.508448083Z #17 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508450623Z #18 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508453813Z #19 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508472483Z #20 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508476103Z #21 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508478773Z #22 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508481383Z #23 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:57:55.508483944Z #24 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508486813Z #25 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
-2025-08-14T02:57:55.508489404Z #26 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508491924Z #27 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508497233Z #28 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508505844Z #29 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508508764Z #30 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508511064Z #31 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508513264Z #32 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508515534Z #33 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508517804Z #34 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508520284Z #35 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508522914Z #36 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508525564Z #37 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508528504Z #38 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508531144Z #39 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508544554Z #40 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508547724Z #41 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508550384Z #42 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508553134Z #43 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508555574Z #44 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508563734Z #45 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508566464Z #46 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.508569024Z #47 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508572494Z #48 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:57:55.508575345Z #49 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508578165Z #50 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508580894Z #51 /var/www/html/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.508583554Z #52 {main}
-2025-08-14T02:57:55.508585985Z [previous exception] [object] (PDOException(code: 0): could not find driver at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:66)
-2025-08-14T02:57:55.508588334Z [stacktrace]
-2025-08-14T02:57:55.50910167Z #0 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(66): PDO->__construct('pgsql:host=dpg-...', 'workplace_repor...', Object(SensitiveParameterValue), Array)
-2025-08-14T02:57:55.509109011Z #1 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('pgsql:host=dpg-...', 'workplace_repor...', Object(SensitiveParameterValue), Array)
-2025-08-14T02:57:55.509112231Z #2 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/PostgresConnector.php(35): Illuminate\\Database\\Connectors\\Connector->createConnection('pgsql:host=dpg-...', Array, Array)
-2025-08-14T02:57:55.5091155Z #3 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\PostgresConnector->connect(Array)
-2025-08-14T02:57:55.509118631Z #4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
-2025-08-14T02:57:55.509120931Z #5 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1230): call_user_func(Object(Closure))
-2025-08-14T02:57:55.509124071Z #6 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(511): Illuminate\\Database\\Connection->getPdo()
-2025-08-14T02:57:55.509126641Z #7 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(406): Illuminate\\Database\\Connection->getPdoForSelect(false)
-2025-08-14T02:57:55.509129291Z #8 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(811): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from \"...', Array)
-2025-08-14T02:57:55.509149461Z #9 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(778): Illuminate\\Database\\Connection->runQueryCallback('select * from \"...', Array, Object(Closure))
-2025-08-14T02:57:55.509153461Z #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(397): Illuminate\\Database\\Connection->run('select * from \"...', Array, Object(Closure))
-2025-08-14T02:57:55.509167221Z #11 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3188): Illuminate\\Database\\Connection->select('select * from \"...', Array, false)
-2025-08-14T02:57:55.509169881Z #12 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3173): Illuminate\\Database\\Query\\Builder->runSelect()
-2025-08-14T02:57:55.509172301Z #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3763): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
-2025-08-14T02:57:55.509174771Z #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3172): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-2025-08-14T02:57:55.509177471Z #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php(366): Illuminate\\Database\\Query\\Builder->get(Array)
-2025-08-14T02:57:55.509180581Z #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3095): Illuminate\\Database\\Query\\Builder->first(Array)
-2025-08-14T02:57:55.509182951Z #17 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/DatabaseSessionHandler.php(96): Illuminate\\Database\\Query\\Builder->find('AiNKtAGv6CwSGyj...')
-2025-08-14T02:57:55.509185481Z #18 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(116): Illuminate\\Session\\DatabaseSessionHandler->read('AiNKtAGv6CwSGyj...')
-2025-08-14T02:57:55.509188341Z #19 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(104): Illuminate\\Session\\Store->readFromHandler()
-2025-08-14T02:57:55.509191191Z #20 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(88): Illuminate\\Session\\Store->loadSession()
-2025-08-14T02:57:55.509193701Z #21 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(146): Illuminate\\Session\\Store->start()
-2025-08-14T02:57:55.509196621Z #22 /var/www/html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(399): Illuminate\\Session\\Middleware\\StartSession->Illuminate\\Session\\Middleware\\{closure}(Object(Illuminate\\Session\\Store))
-2025-08-14T02:57:55.509199001Z #23 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(143): tap(Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:57:55.509201892Z #24 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(115): Illuminate\\Session\\Middleware\\StartSession->startSession(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store))
-2025-08-14T02:57:55.509204541Z #25 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:57:55.509207101Z #26 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509209501Z #27 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509212182Z #28 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509214922Z #29 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509232432Z #30 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509235422Z #31 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509250572Z #32 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:57:55.509253382Z #33 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509255972Z #34 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
-2025-08-14T02:57:55.509258482Z #35 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509261042Z #36 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509263482Z #37 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509265932Z #38 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509268812Z #39 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509271762Z #40 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509274252Z #41 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509276532Z #42 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509303793Z #43 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509313193Z #44 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509316153Z #45 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509318993Z #46 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509326413Z #47 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509329103Z #48 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509331453Z #49 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509334043Z #50 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509336303Z #51 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509359143Z #52 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509362593Z #53 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509365663Z #54 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509368083Z #55 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:57:55.509370703Z #56 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509373653Z #57 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:57:55.509375983Z #58 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509378334Z #59 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509381074Z #60 /var/www/html/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
-2025-08-14T02:57:55.509383774Z #61 {main}
-2025-08-14T02:57:55.509385943Z "} 
-2025-08-14T02:57:55.511901251Z 127.0.0.1 -  14/Aug/2025:02:57:55 +0000 "GET /index.php" 500
-2025-08-14T02:58:18.677380808Z [2025-08-14 02:58:18] production.ERROR: could not find driver (Connection: pgsql, SQL: select * from "sessions" where "id" = TFxDjgCs1pGNRMBDNMUkwLavd4Qa6MOCmUNdxdTM limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 0): could not find driver (Connection: pgsql, SQL: select * from \"sessions\" where \"id\" = TFxDjgCs1pGNRMBDNMUkwLavd4Qa6MOCmUNdxdTM limit 1) at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:824)
-2025-08-14T02:58:18.677410358Z [stacktrace]
-2025-08-14T02:58:18.677417698Z #0 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(778): Illuminate\\Database\\Connection->runQueryCallback('select * from \"...', Array, Object(Closure))
-2025-08-14T02:58:18.677434789Z #1 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(397): Illuminate\\Database\\Connection->run('select * from \"...', Array, Object(Closure))
-2025-08-14T02:58:18.677437709Z #2 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3188): Illuminate\\Database\\Connection->select('select * from \"...', Array, false)
-2025-08-14T02:58:18.677440839Z #3 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3173): Illuminate\\Database\\Query\\Builder->runSelect()
-2025-08-14T02:58:18.677443589Z #4 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3763): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
-2025-08-14T02:58:18.677447169Z #5 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3172): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-2025-08-14T02:58:18.677450579Z #6 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php(366): Illuminate\\Database\\Query\\Builder->get(Array)
-2025-08-14T02:58:18.677453559Z #7 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3095): Illuminate\\Database\\Query\\Builder->first(Array)
-2025-08-14T02:58:18.677456169Z #8 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/DatabaseSessionHandler.php(96): Illuminate\\Database\\Query\\Builder->find('TFxDjgCs1pGNRMB...')
-2025-08-14T02:58:18.677458769Z #9 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(116): Illuminate\\Session\\DatabaseSessionHandler->read('TFxDjgCs1pGNRMB...')
-2025-08-14T02:58:18.677462469Z #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(104): Illuminate\\Session\\Store->readFromHandler()
-2025-08-14T02:58:18.677465109Z #11 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(88): Illuminate\\Session\\Store->loadSession()
-2025-08-14T02:58:18.677468209Z #12 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(146): Illuminate\\Session\\Store->start()
-2025-08-14T02:58:18.677473599Z #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(399): Illuminate\\Session\\Middleware\\StartSession->Illuminate\\Session\\Middleware\\{closure}(Object(Illuminate\\Session\\Store))
-2025-08-14T02:58:18.677476519Z #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(143): tap(Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:58:18.677480229Z #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(115): Illuminate\\Session\\Middleware\\StartSession->startSession(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store))
-2025-08-14T02:58:18.677484859Z #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:58:18.677487429Z #17 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677490569Z #18 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677494779Z #19 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677507569Z #20 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677510349Z #21 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677513199Z #22 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677515939Z #23 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:58:18.67751863Z #24 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67752133Z #25 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
-2025-08-14T02:58:18.67752377Z #26 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677526239Z #27 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.6775292Z #28 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67753202Z #29 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67753468Z #30 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.67753745Z #31 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.67753996Z #32 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67754249Z #33 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.67754509Z #34 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.67754763Z #35 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67755034Z #36 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.67755281Z #37 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67756034Z #38 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.67756305Z #39 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67757495Z #40 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.67757786Z #41 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67758029Z #42 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.67758286Z #43 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67758544Z #44 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.67758927Z #45 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67759208Z #46 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.67759497Z #47 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67759759Z #48 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:58:18.67760025Z #49 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67760282Z #50 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677605351Z #51 /var/www/html/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.67760818Z #52 {main}
-2025-08-14T02:58:18.67761088Z [previous exception] [object] (PDOException(code: 0): could not find driver at /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:66)
-2025-08-14T02:58:18.677613511Z [stacktrace]
-2025-08-14T02:58:18.67761616Z #0 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(66): PDO->__construct('pgsql:host=dpg-...', 'workplace_repor...', Object(SensitiveParameterValue), Array)
-2025-08-14T02:58:18.677618941Z #1 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(44): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('pgsql:host=dpg-...', 'workplace_repor...', Object(SensitiveParameterValue), Array)
-2025-08-14T02:58:18.677625861Z #2 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/PostgresConnector.php(35): Illuminate\\Database\\Connectors\\Connector->createConnection('pgsql:host=dpg-...', Array, Array)
-2025-08-14T02:58:18.677628421Z #3 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\\Database\\Connectors\\PostgresConnector->connect(Array)
-2025-08-14T02:58:18.677631141Z #4 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
-2025-08-14T02:58:18.677633711Z #5 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1230): call_user_func(Object(Closure))
-2025-08-14T02:58:18.677636521Z #6 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(511): Illuminate\\Database\\Connection->getPdo()
-2025-08-14T02:58:18.677639181Z #7 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(406): Illuminate\\Database\\Connection->getPdoForSelect(false)
-2025-08-14T02:58:18.677641621Z #8 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(811): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from \"...', Array)
-2025-08-14T02:58:18.677644001Z #9 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(778): Illuminate\\Database\\Connection->runQueryCallback('select * from \"...', Array, Object(Closure))
-2025-08-14T02:58:18.677646731Z #10 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(397): Illuminate\\Database\\Connection->run('select * from \"...', Array, Object(Closure))
-2025-08-14T02:58:18.677649441Z #11 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3188): Illuminate\\Database\\Connection->select('select * from \"...', Array, false)
-2025-08-14T02:58:18.677651961Z #12 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3173): Illuminate\\Database\\Query\\Builder->runSelect()
-2025-08-14T02:58:18.677654271Z #13 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3763): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
-2025-08-14T02:58:18.677656581Z #14 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3172): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-2025-08-14T02:58:18.677659321Z #15 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php(366): Illuminate\\Database\\Query\\Builder->get(Array)
-2025-08-14T02:58:18.677663751Z #16 /var/www/html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3095): Illuminate\\Database\\Query\\Builder->first(Array)
-2025-08-14T02:58:18.677666601Z #17 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/DatabaseSessionHandler.php(96): Illuminate\\Database\\Query\\Builder->find('TFxDjgCs1pGNRMB...')
-2025-08-14T02:58:18.677669191Z #18 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(116): Illuminate\\Session\\DatabaseSessionHandler->read('TFxDjgCs1pGNRMB...')
-2025-08-14T02:58:18.677671651Z #19 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(104): Illuminate\\Session\\Store->readFromHandler()
-2025-08-14T02:58:18.677674281Z #20 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Store.php(88): Illuminate\\Session\\Store->loadSession()
-2025-08-14T02:58:18.677677081Z #21 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(146): Illuminate\\Session\\Store->start()
-2025-08-14T02:58:18.677679691Z #22 /var/www/html/vendor/laravel/framework/src/Illuminate/Support/helpers.php(399): Illuminate\\Session\\Middleware\\StartSession->Illuminate\\Session\\Middleware\\{closure}(Object(Illuminate\\Session\\Store))
-2025-08-14T02:58:18.677693661Z #23 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(143): tap(Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:58:18.677696532Z #24 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(115): Illuminate\\Session\\Middleware\\StartSession->startSession(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store))
-2025-08-14T02:58:18.677699161Z #25 /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
-2025-08-14T02:58:18.677702072Z #26 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677704681Z #27 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677707292Z #28 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677709812Z #29 /var/www/html/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677712262Z #30 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677714862Z #31 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677717452Z #32 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:58:18.677719892Z #33 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677722782Z #34 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
-2025-08-14T02:58:18.677725422Z #35 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677727902Z #36 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677730662Z #37 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677735142Z #38 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677737882Z #39 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677744572Z #40 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677747802Z #41 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677750392Z #42 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677752942Z #43 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677755512Z #44 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677758042Z #45 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677760602Z #46 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677763202Z #47 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677765762Z #48 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677768392Z #49 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677770782Z #50 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677773052Z #51 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677775472Z #52 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677777862Z #53 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677780613Z #54 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677783322Z #55 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
-2025-08-14T02:58:18.677786013Z #56 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677792982Z #57 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
-2025-08-14T02:58:18.677806873Z #58 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677810123Z #59 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1219): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677813073Z #60 /var/www/html/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
-2025-08-14T02:58:18.677815643Z #61 {main}
-2025-08-14T02:58:18.677818433Z "} 
-2025-08-14T02:58:18.679479012Z 127.0.0.1 -  14/Aug/2025:02:58:18 +0000 "GET /index.php" 500
+2025-08-14T03:22:33.045148248Z ==> Deploying...
+2025-08-14T03:22:50.686643004Z 
+2025-08-14T03:22:50.686681624Z    INFO  Configuration cache cleared successfully.  
+2025-08-14T03:22:50.686686184Z 
+2025-08-14T03:22:51.777787011Z 
+2025-08-14T03:22:51.777815022Z    INFO  Discovering packages.  
+2025-08-14T03:22:51.777818402Z 
+2025-08-14T03:22:51.781823347Z   laravel/tinker ........................................................ DONE
+2025-08-14T03:22:51.871188613Z   nesbot/carbon ......................................................... DONE
+2025-08-14T03:22:51.871224714Z   nunomaduro/termwind ................................................... DONE
+2025-08-14T03:22:51.871227624Z 
+2025-08-14T03:22:52.976716973Z 
+2025-08-14T03:22:52.976750043Z    INFO  Preparing database.  
+2025-08-14T03:22:52.976754153Z 
+2025-08-14T03:22:52.990387361Z   Creating migration table ...................................... 11.98ms DONE
+2025-08-14T03:22:52.990413531Z 
+2025-08-14T03:22:53.075271692Z    INFO  Running migrations.  
+2025-08-14T03:22:53.075298453Z 
+2025-08-14T03:22:53.09266179Z   0001_01_01_000000_create_users_table .......................... 15.90ms DONE
+2025-08-14T03:22:53.138458804Z   0001_01_01_000001_create_cache_table .......................... 42.26ms DONE
+2025-08-14T03:22:53.178366477Z   0001_01_01_000002_create_jobs_table ........................... 36.72ms DONE
+2025-08-14T03:22:53.183212679Z 
+2025-08-14T03:22:53.681557131Z [14-Aug-2025 03:22:53] NOTICE: fpm is running, pid 35
+2025-08-14T03:22:53.768722306Z [14-Aug-2025 03:22:53] NOTICE: ready to handle connections
+2025-08-14T03:22:54.132128564Z ==> Your service is live 🎉
+2025-08-14T03:22:54.158772884Z ==> 
+2025-08-14T03:22:54.183181664Z ==> ///////////////////////////////////////////////////////////
+2025-08-14T03:22:54.207642854Z ==> 
+2025-08-14T03:22:54.232725103Z ==> Available at your primary URL https://workplace-report-app.onrender.com
+2025-08-14T03:22:54.256589443Z ==> 
+2025-08-14T03:22:54.281868883Z ==> ///////////////////////////////////////////////////////////
+2025-08-14T03:22:55.671473368Z 127.0.0.1 -  14/Aug/2025:03:22:54 +0000 "HEAD /index.php" 200
+2025-08-14T03:22:55.687895957Z 127.0.0.1 -  14/Aug/2025:03:22:55 +0000 "GET /index.php" 200
+2025-08-14T03:28:05.544263297Z ==> Detected service running on port 80 with additional ports TCP:9000
+2025-08-14T03:28:05.666547746Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+2025-08-14T03:44:57.097099634Z 
+2025-08-14T03:44:57.097141596Z    INFO  Configuration cache cleared successfully.  
+2025-08-14T03:44:57.097149486Z 
+2025-08-14T03:44:58.093440009Z 
+2025-08-14T03:44:58.093472151Z    INFO  Discovering packages.  
+2025-08-14T03:44:58.093475761Z 
+2025-08-14T03:44:58.182367284Z   laravel/tinker ........................................................ DONE
+2025-08-14T03:44:58.184500321Z   nesbot/carbon ......................................................... DONE
+2025-08-14T03:44:58.186474087Z   nunomaduro/termwind ................................................... DONE
+2025-08-14T03:44:58.186554252Z 
+2025-08-14T03:44:59.389099807Z 
+2025-08-14T03:44:59.389123789Z    INFO  Nothing to migrate.  
+2025-08-14T03:44:59.389126689Z 
+2025-08-14T03:44:59.895764828Z [14-Aug-2025 03:44:59] NOTICE: fpm is running, pid 17
+2025-08-14T03:44:59.98193917Z [14-Aug-2025 03:44:59] NOTICE: ready to handle connections
+2025-08-14T03:45:06.291093047Z 127.0.0.1 -  14/Aug/2025:03:45:04 +0000 "HEAD /index.php" 200
+2025-08-14T03:45:06.381562744Z 127.0.0.1 -  14/Aug/2025:03:45:05 +0000 "HEAD /index.php" 200
+2025-08-14T03:45:06.450367468Z 127.0.0.1 -  14/Aug/2025:03:45:06 +0000 "HEAD /index.php" 200
+2025-08-14T03:45:06.547957447Z 127.0.0.1 -  14/Aug/2025:03:45:06 +0000 "HEAD /index.php" 200
+2025-08-14T03:45:06.647117718Z 127.0.0.1 -  14/Aug/2025:03:45:06 +0000 "GET /index.php" 200
+2025-08-14T03:45:53.992315273Z [2025-08-14 03:45:53] production.INFO: JWT debug {"iss":"3MVG…j6EN","sub":"***@nikko-net.co.jp","aud":"https://login.salesforce.com","exp":"2025-08-14T03:50:53+00:00"} 
+2025-08-14T03:45:57.440055242Z 127.0.0.1 -  14/Aug/2025:03:45:53 +0000 "POST /index.php" 302
+2025-08-14T03:45:57.696274284Z 127.0.0.1 -  14/Aug/2025:03:45:57 +0000 "GET /index.php" 200
+2025-08-14T03:45:58.5978124Z 127.0.0.1 -  14/Aug/2025:03:45:58 +0000 "GET /index.php" 405
+2025-08-14T03:46:00.553233749Z 127.0.0.1 -  14/Aug/2025:03:46:00 +0000 "GET /index.php" 200
+2025-08-14T03:46:03.192881717Z 127.0.0.1 -  14/Aug/2025:03:46:03 +0000 "GET /index.php" 200
