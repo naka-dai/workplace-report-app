@@ -31,13 +31,17 @@ class SalesforceClient
         // 秘密鍵（Base64化したPEM）を復号
         $b64 = (string) env('SF_PRIVATE_KEY_B64', '');
         if ($b64 === '') {
-            throw new \RuntimeException('SF_PRIVATE_KEY_B64 is empty');
+            \Log::error('SF_PRIVATE_KEY_B64 is not set in environment.');
+            $this->privateKeyPem = ''; // Set to empty and continue
+        } else {
+            $pem = base64_decode($b64, true);
+            if ($pem === false || trim($pem) === '') {
+                \Log::error('SF_PRIVATE_KEY_B64 decode failed. Check the value.');
+                $this->privateKeyPem = ''; // Set to empty and continue
+            } else {
+                $this->privateKeyPem = $pem;
+            }
         }
-        $pem = base64_decode($b64, true);
-        if ($pem === false || trim($pem) === '') {
-            throw new \RuntimeException('SF_PRIVATE_KEY_B64 decode failed');
-        }
-        $this->privateKeyPem = $pem;
 
         // cURL の CA を php.ini で設定済みなら verify=true でOK
         // 環境によっては独自CAバンドルパスを指定したい場合があるので env 可
