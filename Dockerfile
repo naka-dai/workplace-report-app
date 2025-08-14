@@ -2,22 +2,7 @@
 FROM php:8.2-fpm
 
 # Install all system dependencies in one go
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    git \
-    zip \
-    unzip \
-    nodejs \
-    npm \
-    nginx \
-    libpng-dev \
-    libjpeg-dev \
-    libfreetype6-dev \
-    default-libmysqlclient-dev \
-    libxml2-dev \
-    libzip-dev \
-    libicu-dev \
-    libonig-dev \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends     git     zip     unzip     nodejs     npm     nginx     libpng-dev     libjpeg-dev     libfreetype6-dev     default-libmysqlclient-dev     libxml2-dev     libzip-dev     libicu-dev     libonig-dev     libpq-dev     && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
 RUN docker-php-ext-install pdo_mysql     && docker-php-ext-install gd     && docker-php-ext-install mbstring     && docker-php-ext-install xml     && docker-php-ext-install session     && docker-php-ext-install dom     && docker-php-ext-install ctype     && docker-php-ext-install fileinfo     && docker-php-ext-install intl     && docker-php-ext-install zip     && docker-php-ext-install pgsql pdo_pgsql
