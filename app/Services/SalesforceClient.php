@@ -87,13 +87,21 @@ class SalesforceClient
                 'FirstPublishLocationId'  => $recordId,
             ];
 
-            $this->http->post($instanceUrl . "/services/data/{$this->apiVersion}/sobjects/ContentVersion", [
-                'headers' => [
-                    'Authorization' => "Bearer {$accessToken}",
-                    'Content-Type'  => 'application/json',
-                ],
-                'body' => json_encode($payload, JSON_UNESCAPED_UNICODE),
-            ]);
+            try {
+                $resp = $this->http->post($instanceUrl . "/services/data/{$this->apiVersion}/sobjects/ContentVersion", [
+                    'headers' => [
+                        'Authorization' => "Bearer {$accessToken}",
+                        'Content-Type'  => 'application/json',
+                    ],
+                    'body' => json_encode($payload, JSON_UNESCAPED_UNICODE),
+                ]);
+                \Log::info('Salesforce ContentVersion creation successful', ['recordId' => $recordId, 'response' => (string) $resp->getBody()]);
+            } catch (RequestException $e) {
+                $body = $e->getResponse() ? (string) $e->getResponse()->getBody() : $e->getMessage();
+                \Log::error('Salesforce ContentVersion creation failed', ['recordId' => $recordId, 'status' => $e->getResponse() ? $e->getResponse()->getStatusCode() : null, 'body' => $body]);
+                // Optionally re-throw if you want the form submission to fail on attachment error
+                // throw $e;
+            }
         }
 
         return $recordId;
