@@ -28,7 +28,8 @@ class ClaimController extends Controller
             'lot_serial'        => ['nullable','string','max:255'],
             'qrcode'            => ['nullable','string','max:255'],
             'description'       => ['nullable','string','max:4000'], // 不具合内容
-            'photo'             => ['nullable','max:20480'],   // 写真 (20MBまで)
+            'photo'             => ['nullable','array'],
+            'photo.*'           => ['max:20480'],   // 写真 (20MBまで)
         ]);
 
         // 2) 値の整形（Salesforce へ渡す形式に合わせる）

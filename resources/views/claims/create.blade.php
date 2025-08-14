@@ -58,7 +58,7 @@
     <textarea name="description">{{ old('description') }}</textarea>
 
     <label>写真（最大 {{ $maxMb }}MB／jpg・png・heic）</label>
-    <input type="file" name="photo" accept="image/*">
+    <input type="file" name="photo[]" multiple>
 
     <div class="actions">
       <button type="submit">送信</button>

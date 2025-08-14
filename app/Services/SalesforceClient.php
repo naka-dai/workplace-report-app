@@ -52,7 +52,7 @@ class SalesforceClient
     /**
      * Claim__c を作成し、必要に応じてファイルを添付してレコードIDを返す
      */
-    public function createClaim(array $fields, ?array $file = null): string
+    public function createClaim(array $fields, ?array $files = null): string
     {
         $token = $this->getAccessToken();
         $instanceUrl = $token['instance_url'];
@@ -74,33 +74,37 @@ class SalesforceClient
         $recordId = $data['id'];
 
         // 2) 添付（任意）: ['filename' => string, 'mime' => string, 'contents' => binary|string]
-        if ($file && isset($file['contents']) && $file['contents'] !== '') {
-            $title = pathinfo($file['filename'] ?? 'upload', PATHINFO_FILENAME) ?: 'upload';
-            $pathOnClient = $file['filename'] ?? 'upload.bin';
-            $mime = $file['mime'] ?? 'application/octet-stream';
-            $base64 = base64_encode(is_string($file['contents']) ? $file['contents'] : (string) $file['contents']);
+        if ($files) {
+            foreach ($files as $file) {
+                if ($file && isset($file['contents']) && $file['contents'] !== '') {
+                    $title = pathinfo($file['filename'] ?? 'upload', PATHINFO_FILENAME) ?: 'upload';
+                    $pathOnClient = $file['filename'] ?? 'upload.bin';
+                    $mime = $file['mime'] ?? 'application/octet-stream';
+                    $base64 = base64_encode(is_string($file['contents']) ? $file['contents'] : (string) $file['contents']);
 
-            $payload = [
-                'Title'                   => $title,
-                'PathOnClient'            => $pathOnClient,
-                'VersionData'             => $base64,
-                'FirstPublishLocationId'  => $recordId,
-            ];
+                    $payload = [
+                        'Title'                   => $title,
+                        'PathOnClient'            => $pathOnClient,
+                        'VersionData'             => $base64,
+                        'FirstPublishLocationId'  => $recordId,
+                    ];
 
-            try {
-                $resp = $this->http->post($instanceUrl . "/services/data/{$this->apiVersion}/sobjects/ContentVersion", [
-                    'headers' => [
-                        'Authorization' => "Bearer {$accessToken}",
-                        'Content-Type'  => 'application/json',
-                    ],
-                    'body' => json_encode($payload, JSON_UNESCAPED_UNICODE),
-                ]);
-                \Log::info('Salesforce ContentVersion creation successful', ['recordId' => $recordId, 'response' => (string) $resp->getBody()]);
-            } catch (RequestException $e) {
-                $body = $e->getResponse() ? (string) $e->getResponse()->getBody() : $e->getMessage();
-                \Log::error('Salesforce ContentVersion creation failed', ['recordId' => $recordId, 'status' => $e->getResponse() ? $e->getResponse()->getStatusCode() : null, 'body' => $body]);
-                // Optionally re-throw if you want the form submission to fail on attachment error
-                // throw $e;
+                    try {
+                        $resp = $this->http->post($instanceUrl . "/services/data/{$this->apiVersion}/sobjects/ContentVersion", [
+                            'headers' => [
+                                'Authorization' => "Bearer {$accessToken}",
+                                'Content-Type'  => 'application/json',
+                            ],
+                            'body' => json_encode($payload, JSON_UNESCAPED_UNICODE),
+                        ]);
+                        \Log::info('Salesforce ContentVersion creation successful', ['recordId' => $recordId, 'response' => (string) $resp->getBody()]);
+                    } catch (RequestException $e) {
+                        $body = $e->getResponse() ? (string) $e->getResponse()->getBody() : $e->getMessage();
+                        \Log::error('Salesforce ContentVersion creation failed', ['recordId' => $recordId, 'status' => $e->getResponse() ? $e->getResponse()->getStatusCode() : null, 'body' => $body]);
+                        // Optionally re-throw if you want the form submission to fail on attachment error
+                        // throw $e;
+                    }
+                }
             }
         }
 
