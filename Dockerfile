@@ -71,4 +71,4 @@ RUN npm run build \
 EXPOSE 80
 
 # Start Nginx and PHP-FPM
-CMD ["/bin/bash", "-c", "php artisan config:clear && nginx -g 'daemon off;' & php-fpm"]
+CMD ["/bin/bash", "-c", "./start.sh"]
