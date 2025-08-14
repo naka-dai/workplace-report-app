@@ -58,7 +58,9 @@
     <textarea name="description">{{ old('description') }}</textarea>
 
     <label>写真（最大 {{ $maxMb }}MB／jpg・png・heic）</label>
-    <input type="file" name="photo[]" multiple>
+    <input type="file" name="photo[]" id="photo_input" multiple style="display: none;">
+    <button type="button" id="add_photo_button">ファイルを選択</button>
+    <div id="photo_preview_container"></div>
 
     <div class="actions">
       <button type="submit">送信</button>
@@ -73,6 +75,10 @@
     document.addEventListener('DOMContentLoaded', function() {
       const reportingWorkplaceSelect = document.getElementById('reporting_workplace_select');
       const reporterInput = document.getElementById('reporter_input');
+      const photoInput = document.getElementById('photo_input');
+      const addPhotoButton = document.getElementById('add_photo_button');
+      const photoPreviewContainer = document.getElementById('photo_preview_container');
+      let filesToUpload = new DataTransfer(); // Use DataTransfer to manage files
 
       // Load saved values
       const savedReportingWorkplace = localStorage.getItem('reporting_workplace');
@@ -92,6 +98,58 @@
 
       reporterInput.addEventListener('input', function() {
         localStorage.setItem('reporter', this.value);
+      });
+
+      // Handle custom file input button click
+      addPhotoButton.addEventListener('click', function() {
+        photoInput.click(); // Trigger the hidden file input
+      });
+
+      // Handle file selection
+      photoInput.addEventListener('change', function() {
+        for (let i = 0; i < photoInput.files.length; i++) {
+          filesToUpload.items.add(photoInput.files[i]);
+        }
+        updatePhotoPreview();
+        photoInput.value = ''; // Clear the input to allow selecting same file again
+      });
+
+      // Update photo preview display
+      function updatePhotoPreview() {
+        photoPreviewContainer.innerHTML = ''; // Clear current preview
+        if (filesToUpload.files.length > 0) {
+          const ul = document.createElement('ul');
+          Array.from(filesToUpload.files).forEach((file, index) => {
+            const li = document.createElement('li');
+            li.textContent = file.name;
+            const removeButton = document.createElement('button');
+            removeButton.textContent = '削除';
+            removeButton.type = 'button'; // Prevent form submission
+            removeButton.addEventListener('click', function() {
+              removeFile(index);
+            });
+            li.appendChild(removeButton);
+            ul.appendChild(li);
+          });
+          photoPreviewContainer.appendChild(ul);
+        }
+      }
+
+      // Remove file from selection
+      function removeFile(indexToRemove) {
+        const newFilesToUpload = new DataTransfer();
+        Array.from(filesToUpload.files).forEach((file, index) => {
+          if (index !== indexToRemove) {
+            newFilesToUpload.items.add(file);
+          }
+        });
+        filesToUpload = newFilesToUpload;
+        updatePhotoPreview();
+      }
+
+      // Before form submission, assign the accumulated files back to the input
+      document.querySelector('form').addEventListener('submit', function() {
+        photoInput.files = filesToUpload.files;
       });
     });
   </script>
