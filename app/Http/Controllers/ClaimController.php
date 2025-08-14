@@ -63,19 +63,22 @@ class ClaimController extends Controller
         $payload = array_filter($payload, fn($x) => !is_null($x) && $x !== '');
 
         // 写真ファイルがあれば準備
-        $fileToUpload = null;
-        if ($req->hasFile('photo') && $req->file('photo')->isValid()) {
-            $uploadedFile = $req->file('photo');
-            $fileToUpload = [
-                'filename' => $uploadedFile->getClientOriginalName(),
-                'mime'     => $uploadedFile->getMimeType(),
-                'contents' => $uploadedFile->get(),
-            ];
+        $filesToUpload = [];
+        if ($req->hasFile('photo')) {
+            foreach ($req->file('photo') as $uploadedFile) {
+                if ($uploadedFile && $uploadedFile->isValid()) {
+                    $filesToUpload[] = [
+                        'filename' => $uploadedFile->getClientOriginalName(),
+                        'mime'     => $uploadedFile->getMimeType(),
+                        'contents' => $uploadedFile->get(),
+                    ];
+                }
+            }
         }
 
         // 4) Salesforce 登録
         try {
-            $res = $sf->createClaim($payload, $fileToUpload); // ← 既存のメソッドを利用
+            $res = $sf->createClaim($payload, $filesToUpload); // ← 既存のメソッドを利用
         } catch (\Throwable $e) {
             report($e);
             return back()->withErrors(['api' => 'Salesforce登録でエラーが発生しました：'.$e->getMessage()])
