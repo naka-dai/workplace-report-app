@@ -13,6 +13,9 @@ COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
 # Set working directory
 WORKDIR /var/www/html
 
+# Copy custom php.ini
+COPY php.ini /usr/local/etc/php/conf.d/custom.ini
+
 # Copy composer files for caching
 COPY composer.json composer.lock ./
 
