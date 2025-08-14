@@ -20,16 +20,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
-RUN docker-php-ext-install pdo_mysql \
-    && docker-php-ext-install gd \
-    && docker-php-ext-install mbstring \
-    && docker-php-ext-install xml \
-    && docker-php-ext-install session \
-    && docker-php-ext-install dom \
-    && docker-php-ext-install ctype \
-    && docker-php-ext-install fileinfo \
-    && docker-php-ext-install intl \
-    && docker-php-ext-install zip
+RUN docker-php-ext-install pdo_mysql     && docker-php-ext-install gd     && docker-php-ext-install mbstring     && docker-php-ext-install xml     && docker-php-ext-install session     && docker-php-ext-install dom     && docker-php-ext-install ctype     && docker-php-ext-install fileinfo     && docker-php-ext-install intl     && docker-php-ext-install zip     && docker-php-ext-install pgsql pdo_pgsql
 
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
