@@ -51,6 +51,7 @@ RUN npm install
 
 # Copy remaining application files
 COPY . /var/www/html
+RUN chmod +x start.sh
 
 # Set permissions for storage and bootstrap/cache
 RUN chown -R www-data:www-data storage bootstrap/cache     && chmod -R 775 storage bootstrap/cache
