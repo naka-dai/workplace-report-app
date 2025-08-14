@@ -53,7 +53,7 @@ RUN npm install
 COPY . /var/www/html
 
 # Set permissions for storage and bootstrap/cache
-RUN chown -R www-data:www-data storage bootstrap/cache     && chmod -R 777 storage bootstrap/cache
+RUN chown -R www-data:www-data storage bootstrap/cache     && chmod -R 775 storage bootstrap/cache
 
 # Configure Nginx
 COPY nginx.conf /etc/nginx/sites-available/default
