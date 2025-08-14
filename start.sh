@@ -14,3 +14,5 @@ nginx -g 'daemon off;' & php-fpm
 
 # Keep the container running
 wait
+
+# Added a comment to force redeploy
