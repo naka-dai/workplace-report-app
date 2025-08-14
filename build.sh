@@ -19,9 +19,6 @@ php artisan config:cache
 php artisan route:cache
 php artisan view:cache
 
-# Create database file
-touch database/database.sqlite
-
 # If you have frontend assets (Vite) and public/build is NOT committed:      
 npm install
 npm run build
